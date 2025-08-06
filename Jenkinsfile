@@ -22,7 +22,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running Unit Tests...'
-                sleep 5
+                sleep 10
                 echo 'Running Integration Tests...'
                 sleep 5
             }
